@@ -17,12 +17,9 @@
     <meta property="og:title" content="Đoàn Linh &amp; Hà Chi Wedding site!">
     <meta property="og:description"
         content="Đoàn Linh &amp; Hà Chi - Our wedding date: 2022-12-22 | Điều tuyệt vời nhất mà bạn từng học là yêu và được yêu để đáp lại">
-    <meta property="og:image"
-        content="./image/1d819437886820367979.jpg">
-    <meta property="og:image:url"
-        content="./image/1d819437886820367979.jpg">
-    <meta property="og:image:secure_url"
-        content="./image/1d819437886820367979.jpg">
+    <meta property="og:image" content="./image/1d819437886820367979.jpg">
+    <meta property="og:image:url" content="./image/1d819437886820367979.jpg">
+    <meta property="og:image:secure_url" content="./image/1d819437886820367979.jpg">
     <link href="https://fonts.googleapis.com/css2?family=Bellota+Text&amp;display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&amp;display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Texturina:opsz,wght@12..72,100&amp;display=swap"
@@ -1945,6 +1942,11 @@
             color: #0CB1C7
         }
     </style>
+    <style>
+        body {
+            user-select: none;
+        }
+    </style>
 </head>
 
 <body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
@@ -2282,8 +2284,7 @@
                         <div class="flip-card-inner">
                             <div class="flip-card-front p-2 d-flex flex-column justify-content-between border">
                                 <div data-aos="flip-right" class="member-image animation aos-init">
-                                    <img
-                                        src="./image/340474c3689cc0c2998d_2.jpg">
+                                    <img src="./image/340474c3689cc0c2998d_2.jpg">
                                 </div>
                                 <div data-aos="fade-right" class="member-name fs-5 my-2 aos-init">
                                     to. BRIDE
@@ -2448,8 +2449,8 @@
                         <a href="#" data-index="4"
                             class="section-sub-title btn btn-sm btn-secondary calendar-button-custom-click">Thêm vào
                             lịch</a>
-                        <a href="https://www.google.com/maps/place/19%C2%B018'11.9%22N+105%C2%B015'17.7%22E/@19.303307,105.2523291,17z/data=!3m1!4b1!4m4!3m3!8m2!3d19.303307!4d105.254904?hl=vi-VN&entry=ttu" target="_blank"
-                            class="section-sub-title btn btn-sm btn-secondary">Xem bản đồ</a>
+                        <a href="https://www.google.com/maps/place/19%C2%B018'11.9%22N+105%C2%B015'17.7%22E/@19.303307,105.2523291,17z/data=!3m1!4b1!4m4!3m3!8m2!3d19.303307!4d105.254904?hl=vi-VN&entry=ttu"
+                            target="_blank" class="section-sub-title btn btn-sm btn-secondary">Xem bản đồ</a>
                     </div>
                 </div>
             </div>
@@ -2908,9 +2909,14 @@
 
 
     <div id="eJOY__extension_root" class="eJOY__extension_root_class" style="all: unset;"></div>
-    <audio src="./image/music.mp3" controls="controls"
-        style="display: none;">
+    <audio src="./image/music.mp3" controls="controls" style="display: none;">
     </audio>
+
+    <script>
+        document.addEventListener('contextmenu', function (event) {
+            event.preventDefault();
+        });
+    </script>
 </body>
 
 </html>
