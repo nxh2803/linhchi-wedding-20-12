@@ -2311,7 +2311,8 @@
                                 </div>
                                 <ul class="member-contact social-links d-flex p-0 mb-4">
                                     <li>
-                                        <a href="https://www.facebook.com/profile.php?id=100076022203980" target="_blank">
+                                        <a href="https://www.facebook.com/profile.php?id=100076022203980"
+                                            target="_blank">
                                             <i class="bi bi-facebook"></i>
                                         </a>
                                     </li>
@@ -2907,7 +2908,6 @@
         </div>
     </div>
 
-
     <div id="eJOY__extension_root" class="eJOY__extension_root_class" style="all: unset;"></div>
     <audio src="./image/music.mp3" controls="controls" style="display: none;">
     </audio>
@@ -2915,6 +2915,11 @@
     <script>
         document.addEventListener('contextmenu', function (event) {
             event.preventDefault();
+        });
+        document.addEventListener('keydown', function (event) {
+            if (event.key === 'F12' || event.keyCode === 123) {
+                event.preventDefault();
+            }
         });
     </script>
 </body>
